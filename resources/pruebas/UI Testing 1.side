@@ -1,0 +1,568 @@
+{
+  "id": "6735a2f3-9381-40ec-92bc-85f3c43999c3",
+  "version": "2.0",
+  "name": "UI Testing 1",
+  "url": "http://127.0.0.1:5173/registrar_sugerencia_cuidado",
+  "tests": [{
+    "id": "1cdac022-b266-4ad6-9c9c-2013d96deeff",
+    "name": "consultar paciente",
+    "commands": [{
+      "id": "c6f4a24a-586d-4a82-bebd-af2f8a6a7690",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5173/consultar_paciente",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d5f4a1c-2db4-4cd6-95d3-28d9b4585d90",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "711x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "202457d3-1ac6-4151-9dc9-31ec92cd0279",
+      "comment": "",
+      "command": "click",
+      "target": "id=select_tipo_doc",
+      "targets": [
+        ["id=select_tipo_doc", "id"],
+        ["name=select_tipo_doc", "name"],
+        ["css=#select_tipo_doc", "css:finder"],
+        ["xpath=//select[@id='select_tipo_doc']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/body/main/div/form/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a0680c2-59fb-4f99-b78c-e199d88be7f9",
+      "comment": "",
+      "command": "select",
+      "target": "id=select_tipo_doc",
+      "targets": [],
+      "value": "label=Cédula"
+    }, {
+      "id": "630abf01-0923-4e2a-afd0-6fb951b14ff3",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7805bb0-daa1-4898-aae6-a8e1e558223e",
+      "comment": "",
+      "command": "click",
+      "target": "css=pre",
+      "targets": [
+        ["css=pre", "css:finder"],
+        ["xpath=//pre", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5ec3da5-0b7e-4c31-ae60-99ae945f5d5d",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "18af63eb-c400-4e0b-adf4-bad997b7bf36",
+      "comment": "",
+      "command": "click",
+      "target": "id=num_id",
+      "targets": [
+        ["id=num_id", "id"],
+        ["name=numero_identificacion", "name"],
+        ["css=#num_id", "css:finder"],
+        ["xpath=//input[@id='num_id']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/body/main/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb17627f-b1b4-4c54-a253-65456ef1dc92",
+      "comment": "",
+      "command": "type",
+      "target": "id=num_id",
+      "targets": [
+        ["id=num_id", "id"],
+        ["name=numero_identificacion", "name"],
+        ["css=#num_id", "css:finder"],
+        ["xpath=//input[@id='num_id']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/body/main/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "123456789"
+    }, {
+      "id": "3aaa71a7-e8e5-4505-96ab-7028e0f02fc5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_consultar",
+      "targets": [
+        ["css=.btn_consultar", "css:finder"],
+        ["xpath=//div[@id='app']/body/main/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Consultar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9179913-7d81-4098-97c4-20016eb6726b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.historialSignosVitales",
+      "targets": [
+        ["css=.historialSignosVitales", "css:finder"],
+        ["xpath=//div[@id='app']/body/main/div[2]/div/div/div[3]/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c59655f1-f87d-4c68-b4b5-4450ea7ab65f",
+      "comment": "",
+      "command": "click",
+      "target": "id=leftDate",
+      "targets": [
+        ["id=leftDate", "id"],
+        ["name=leftDate", "name"],
+        ["css=#leftDate", "css:finder"],
+        ["xpath=//input[@id='leftDate']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/body/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6408ff8-3ce2-4d0f-a96c-6ba29e367722",
+      "comment": "",
+      "command": "click",
+      "target": "id=leftDate",
+      "targets": [
+        ["id=leftDate", "id"],
+        ["name=leftDate", "name"],
+        ["css=#leftDate", "css:finder"],
+        ["xpath=//input[@id='leftDate']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/body/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7eba7d97-0f15-4c48-9eda-c01a84c1db60",
+      "comment": "",
+      "command": "click",
+      "target": "id=leftDate",
+      "targets": [
+        ["id=leftDate", "id"],
+        ["name=leftDate", "name"],
+        ["css=#leftDate", "css:finder"],
+        ["xpath=//input[@id='leftDate']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/body/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a22fa71-d190-4265-8ed1-f385bdf7682f",
+      "comment": "",
+      "command": "type",
+      "target": "id=leftDate",
+      "targets": [
+        ["id=leftDate", "id"],
+        ["name=leftDate", "name"],
+        ["css=#leftDate", "css:finder"],
+        ["xpath=//input[@id='leftDate']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/body/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1984-01-01T00:00"
+    }, {
+      "id": "adf1bfe5-7dd9-4ce5-b21c-85ac8091608f",
+      "comment": "",
+      "command": "click",
+      "target": "id=rightDate",
+      "targets": [
+        ["id=rightDate", "id"],
+        ["name=rightDate", "name"],
+        ["css=#rightDate", "css:finder"],
+        ["xpath=//input[@id='rightDate']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/body/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d2af8d7-053d-4b8a-b87f-129e1f24d14f",
+      "comment": "",
+      "command": "type",
+      "target": "id=rightDate",
+      "targets": [
+        ["id=rightDate", "id"],
+        ["name=rightDate", "name"],
+        ["css=#rightDate", "css:finder"],
+        ["xpath=//input[@id='rightDate']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/body/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "2023-06-08T22:27"
+    }, {
+      "id": "f4c98fd6-c190-4107-ab34-29efdc41b093",
+      "comment": "",
+      "command": "click",
+      "target": "id=app",
+      "targets": [
+        ["id=app", "id"],
+        ["css=#app", "css:finder"],
+        ["xpath=//div[@id='app']", "xpath:attributes"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f4f2841e-8a5d-4043-b583-cca887eabb41",
+    "name": "Registrar diagnostico",
+    "commands": [{
+      "id": "a643cd15-be09-4ee0-9a80-7ce02432f498",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5173/registrar_diagnostico",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dae7580e-d64b-4ae1-9c1c-817eb51245cf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "711x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03f1bfb3-84c6-4b1a-9ef9-02ce3ddf0e71",
+      "comment": "",
+      "command": "click",
+      "target": "name=descripcion",
+      "targets": [
+        ["name=descripcion", "name"],
+        ["css=.textarea", "css:finder"],
+        ["xpath=//textarea[@id='']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/body/form/div/div/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ed87695-6dfb-4827-b588-42cb7abcbfec",
+      "comment": "",
+      "command": "type",
+      "target": "name=descripcion",
+      "targets": [
+        ["name=descripcion", "name"],
+        ["css=.textarea", "css:finder"],
+        ["xpath=//textarea[@id='']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/body/form/div/div/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "El paciente presenta una infección de oído, específicamente una otitis externa o media, dependiendo de la ubicación de la infección. La infección puede ser causada por bacterias o virus, y suele estar asociada con la acumulación de líquido en el oído medio o la inflamación e infección del conducto auditivo externo. El dolor y la presión son resultado de la inflamación, y la secreción de líquido indica la presencia de una infección activa.\\n\\n"
+    }, {
+      "id": "d61f9c63-4b30-44e3-91dc-258b3a021ece",
+      "comment": "",
+      "command": "click",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/body/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37b6e964-3eef-4b69-ac4c-178825f7e83f",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/body/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Registrar diagnostico"
+    }, {
+      "id": "9167c836-f2cc-4182-9689-833585488896",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "f19d40ee-9e95-49a7-be77-29b0900a9a4d",
+      "comment": "",
+      "command": "click",
+      "target": "css=pre",
+      "targets": [
+        ["css=pre", "css:finder"],
+        ["xpath=//pre", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "733dfde7-b20e-4457-bf5b-b107b6be712b",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "8297df63-d095-4fff-b31c-ebcda1b773c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-guardar",
+      "targets": [
+        ["css=.btn-guardar", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/body/form/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Guardar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "abc101f6-6ec6-4477-a5bf-ed723d742d13",
+    "name": "Registrar sugerencias de cuidados paciente",
+    "commands": [{
+      "id": "c3e69a0b-bb64-4a9f-90b8-a030c2ce9a65",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5173/registrar_sugerencia_cuidado",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5b74f9b-60e2-4303-9973-4a3937beffd6",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c97b477-17b6-4bdf-bfcd-dbc11907efa5",
+      "comment": "",
+      "command": "click",
+      "target": "css=pre",
+      "targets": [
+        ["css=pre", "css:finder"],
+        ["xpath=//pre", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45aeae47-f4ff-41c7-985c-9f359574faea",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "d17fa898-70ef-47bc-8ea7-a44d1ada9d51",
+      "comment": "",
+      "command": "click",
+      "target": "name=paciente",
+      "targets": [
+        ["name=paciente", "name"],
+        ["css=.select:nth-child(1) > .input_doc", "css:finder"],
+        ["xpath=//select[@name='paciente']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/body/form/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22081474-43e3-4bfa-9aca-05ce63964fc3",
+      "comment": "",
+      "command": "select",
+      "target": "name=paciente",
+      "targets": [],
+      "value": "label=Lorena"
+    }, {
+      "id": "a76d2367-8cc7-457e-8397-630a94af4a58",
+      "comment": "",
+      "command": "click",
+      "target": "name=profesional",
+      "targets": [
+        ["name=profesional", "name"],
+        ["css=.select:nth-child(2) > .input_doc", "css:finder"],
+        ["xpath=//select[@name='profesional']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/body/form/div/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb3b4710-68c7-4d4c-9e7a-612a766ef3c3",
+      "comment": "",
+      "command": "select",
+      "target": "name=profesional",
+      "targets": [],
+      "value": "label=Berni"
+    }, {
+      "id": "8b73c2a4-aa33-44eb-984b-d3148695464d",
+      "comment": "",
+      "command": "click",
+      "target": "name=fechaInicial",
+      "targets": [
+        ["name=fechaInicial", "name"],
+        ["css=.date_item:nth-child(1) > .date", "css:finder"],
+        ["xpath=//input[@id='']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/body/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a9ee82b-5b77-47a6-8082-9e60eaaef43a",
+      "comment": "",
+      "command": "type",
+      "target": "name=fechaInicial",
+      "targets": [
+        ["name=fechaInicial", "name"],
+        ["css=.date_item:nth-child(1) > .date", "css:finder"],
+        ["xpath=//input[@id='']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/body/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2023-06-07"
+    }, {
+      "id": "14fdbd89-5aa8-402c-b54f-25b91f603566",
+      "comment": "",
+      "command": "click",
+      "target": "name=fechaFinal",
+      "targets": [
+        ["name=fechaFinal", "name"],
+        ["css=.date_item:nth-child(2) > .date", "css:finder"],
+        ["xpath=(//input[@id=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/body/form/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8a22cad-9d58-441d-b650-9fe044e1a8cc",
+      "comment": "",
+      "command": "type",
+      "target": "name=fechaFinal",
+      "targets": [
+        ["name=fechaFinal", "name"],
+        ["css=.date_item:nth-child(2) > .date", "css:finder"],
+        ["xpath=(//input[@id=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/body/form/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "2023-06-08"
+    }, {
+      "id": "5a3be320-761c-4ad8-9f3c-0777fae3e089",
+      "comment": "",
+      "command": "click",
+      "target": "name=fechaFinal",
+      "targets": [
+        ["name=fechaFinal", "name"],
+        ["css=.date_item:nth-child(2) > .date", "css:finder"],
+        ["xpath=(//input[@id=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/body/form/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "354cafe5-bd9b-488e-bb64-475c460a373e",
+      "comment": "",
+      "command": "type",
+      "target": "name=fechaFinal",
+      "targets": [
+        ["name=fechaFinal", "name"],
+        ["css=.date_item:nth-child(2) > .date", "css:finder"],
+        ["xpath=(//input[@id=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/body/form/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "2023-06-10"
+    }, {
+      "id": "cd6b7672-26a0-42ab-bf47-524357608ccf",
+      "comment": "",
+      "command": "click",
+      "target": "id=cuidado",
+      "targets": [
+        ["id=cuidado", "id"],
+        ["name=cuidado", "name"],
+        ["css=#cuidado", "css:finder"],
+        ["xpath=//textarea[@id='cuidado']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/body/form/div/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78c26a2b-dd3c-4c9c-acc2-7b877ec8930e",
+      "comment": "",
+      "command": "type",
+      "target": "id=cuidado",
+      "targets": [
+        ["id=cuidado", "id"],
+        ["name=cuidado", "name"],
+        ["css=#cuidado", "css:finder"],
+        ["xpath=//textarea[@id='cuidado']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/body/form/div/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "ckeckeo placa bacteriana"
+    }, {
+      "id": "80466996-303c-44df-a2b2-b7567bc54b71",
+      "comment": "",
+      "command": "click",
+      "target": "name=descripcion",
+      "targets": [
+        ["name=descripcion", "name"],
+        ["css=.desc_area > .textarea", "css:finder"],
+        ["xpath=//textarea[@id='']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/body/form/div/div[3]/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//div[2]/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26608e1f-becd-4058-9ac4-9e474a14d1da",
+      "comment": "",
+      "command": "type",
+      "target": "name=descripcion",
+      "targets": [
+        ["name=descripcion", "name"],
+        ["css=.desc_area > .textarea", "css:finder"],
+        ["xpath=//textarea[@id='']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/body/form/div/div[3]/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//div[2]/textarea", "xpath:position"]
+      ],
+      "value": "Mejorar la higiene oral: Cepillado dos veces al día, uso de hilo dental y limpiador interdental.\\nUso de enjuague bucal antimicrobiano.\\nVisitas regulares al dentista para limpiezas y evaluación.\\nControl de factores de riesgo como el tabaquismo y la dieta.\\nControl de enfermedades sistémicas como la diabetes.\\nEducación, seguimiento y cumplimiento de las recomendaciones del dentista."
+    }, {
+      "id": "2af7e4b1-d5a8-4de5-a8ad-512aa5a78892",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-guardar",
+      "targets": [
+        ["css=.btn-guardar", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/body/form/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Guardar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c5df936c-61e0-4e55-85ee-0b7b8f8eb40c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1cdac022-b266-4ad6-9c9c-2013d96deeff"]
+  }],
+  "urls": ["http://127.0.0.1:5173/consultar_paciente", "http://127.0.0.1:5173/registrar_diagnostico", "http://127.0.0.1:5173/registrar_sugerencia_cuidado"],
+  "plugins": []
+}

@@ -53,7 +53,7 @@ uvicorn main:app --reload
     {
         "id": 3,
         "fecha_inicio": "2022-01-01 08:00:00",
-        "fecha_fin": "2022-01-02 08:00:0"
+        "fecha_fin": "2022-01-02 08:00:00"
     }
 ```
 
